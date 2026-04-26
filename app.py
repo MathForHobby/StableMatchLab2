@@ -8,7 +8,7 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="Stable Match Lab",
+    page_title="Stable Match Lab2",
     page_icon="🧪",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -16,7 +16,7 @@ st.set_page_config(
 
 
 # ============================================================
-# Stable Match Lab v3.1
+# Stable Match Lab2 v3.1
 # Single-file version
 # matching_engine.py 없이 app.py 하나만으로 동작하도록 핵심 로직을 포함합니다.
 # ============================================================
@@ -1009,7 +1009,7 @@ def render_home():
     st.markdown(
         """
         <div class="sml-hero">
-            <div class="sml-title">Stable Match Lab</div>
+            <div class="sml-title">Stable Match Lab2</div>
             <p class="sml-subtitle">
                 매칭 이론을 게임처럼 익히는 퍼즐 실험실입니다.
                 카드를 선택해 직접 연결하고, blocking pair를 피하고,
@@ -1759,7 +1759,7 @@ def render_game():
 
 def render_sidebar_navigation():
     with st.sidebar:
-        st.markdown("## Stable Match Lab")
+        st.markdown("## Stable Match Lab2")
         st.markdown(
             '<div class="sidebar-note">게임 중 언제든 첫 화면이나 레벨 선택으로 돌아갈 수 있습니다.</div>',
             unsafe_allow_html=True,
